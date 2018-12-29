@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>www.dwikileaks.com</title>
+		
+		<script type="text/javascript" src="select_object_dom.js"></script>
+		<script type="text/javascript" src="validasi_form.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+		<script type="text/javascript" src="../bootstrap/js/jquery.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+	</head>
+	<body style="background-color:#E6E6FA">
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="../index.html">Home</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="form_daftar.html">Form Beli Barang</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="col-md-12">
+				</br>
+				<center><h3><b>FORM PENDAFTARAN</b></h3><center>
+				</br></br>
+
+				<div class="col-md-10">
+
+					<form name="data" action="form_output.php" class="form-horizontal" method="GET" onSubmit="return validasi()" >
+						<div class="form-group">
+							<label class="control-label col-sm-4">Pilih Barang</label>
+							<div class="col-sm-6">
+								<select name="specifikasi" id="spec1" class="form-control" onchange = "infoSelect()">
+									<option value=""></option>
+									<option value="ASUS ROG GX800VH [Rp.95.000.000,00]
+
+*Layar: 18.4″4K UHD WVA Matte LED Display (3840 x 2160).
+*Processor:  Intel Core i7 7820HK 2.9GHz up to 3.9GHz (8MB Cache), 8 Threads.
+*Graphic Card:  nVidia Geforce GTX1080 SLI 16GB DDR5X 256bit (G-SYNC).
+*RAM: 64 GB RAM DDR4 2400MHz. *Storage: 3x 512GB NVMe SSD (RAID0).
+*Optical Drive: – .
+*Konektivitas: Integrated 802.11 AC and Built-in Bluetooth V4.1 External Antenna.
+*Port: Microphone-in jack, Headphone-out jack (SPDIF), Type C USB3.1 (GEN2) Thunderbolt, USB 3.1 Type C port(s), 3 x Type A USB3.0 (USB3.1 GEN1), RJ45, HDMI , Docking port, mini Display Port, SD card reader.
+*Baterai: 8 Cells 71 Whrs Battery
+												  ">ASUS ROG GX800VH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Rp. 95.000.000,00]</option>
+									<option value="MSI Titan Pro GT73VR 7RF [Rp. 63.000.000,00]
+									
+*Layar: 17.3-inch 4K UHD 3840 x 2160 piksel  IPS Level Adobe : 100% RGB color Anti-Glare LED Backlit.
+*Processor:  Intel Core i9-8950HK 2.90 – 4.80 GHz, 12 MB Cache.
+*Graphic Card: Intel UHD Graphics 630 + Nvidia GeForce GTX 1080 8 GB GDDR5X.
+*RAM: 32 GB 2400 MHz DDR4. *Storage: 512 GB SSD (Super Raid 4) + 1 TB 7200 rpm SATA HDD.
+*Optical Drive: – .
+*Konektivitas: Killer MultiGiG 10Gbps LAN, Killer ac Wi-Fi + Bluetooth v5.
+*Port: 1 SD (XC/HC), 1 Type-C (USB3.1 Gen2 / DP / Thunderbolt™3), 5 Type-A USB3.1 Gen2, 1 RJ45, 1 (4K @ 60Hz) HDMI, 1 Mini-DisplayPort, 1 Line-in, 1 Line-out, 1 Mic-in, 1 Headphone-out (HiFi / SPDIF).
+*Baterai: 8-Cell, 75 Whr
+												  ">MSI Titan Pro GT73VR 7RF &nbsp;&nbsp;&nbsp; [Rp. 63.000.000,00]</option>
+									<option value="Acer Predator Triton 700 [Rp. 70.000.000,00]
+
+*Layar: 17.3 inches  UHD 3840 x 2160 pixel IPS 144 Hz (Full HD 1920 x 1080 optional).
+*Processor:  Intel Core i9 8950HK 2.9GHz with turbo boost up to 4.8GHz.
+*Graphic Card: NVIDIA GeForce GTX 1070.
+*RAM: 16 GB DDR4 SDRAM Up to 64 GB (maximum).
+*Storage: 512GB + 512GB PCie SSD RAID + 2TB Hard disk drive.
+*Konektivitas: IEEE 802.11ac, Gigabit LAN Bluetooth 5.0.
+*Port: 3 x USB 3.0, 2 x Thunderbolt, 1 x HDMI, RJ-45 LAN, 1 x Audio Jack, DisplayPort. *Baterai: 4-Cell, 4810 mAh
+												  ">Acer Predator Triton 700 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Rp. 70.000.000,00]</option>
+									<option value="Dell Alienware 17 R4 [Rp. 65.000.000,00]
+									
+*Layar: 17.3″QHD WVA LED Display 2560 x 1440. *Processor: Intel Core i7 7820HK 2.8Ghz-3.8Ghz.
+*Graphic Card:  nVidia GeForce GTX1070 8GB DDR5 256bit (Overclocked) with VR Ready & G-SYNC.
+*RAM: 16GB RAM DDR4 2400MHz (Dual Channel RAM, Max. 32GB).
+*Storage: 256GB NVMe PCIe SSD + 1TB HDD 7200RPM.
+*Optical Drive: –.
+*Konektivitas: 2 x 1 WiFi 802.11 ac or 2 x 2 WiFi 802.11 ac + Bluetooth®4.1 Combo.
+*Port: 2 x USB 3.0, 1 x USB 3.1 TYPE-C, 1 x HDMI, RJ45, Audio Jack, Jack Microfon, Mini DisplayPort. *Baterai: 99 Wh Lithium-Ion.
+												  ">Dell Alienware 17 R4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Rp. 65.000.000,00]</option>
+									<option value="HP OMEN 087TX [Rp. 60.000.000,00]
+									
+*Layar: 15.6 inches FHD 120 Hz IPS anti-glare WLED-backlit (1920 x 1080).
+*Processor:  Intel Core i7 7700HQ (Base 2,8 GHz/Turbo Boost 3,8 GHz).
+*Graphic Card:  GeForce GTX 1060 Max-Q 6 GB GDDR5.
+*RAM: 16 GB (2x 8 GB) DDR4 @2400 MHz (Dual Channel).
+*Storage: 256 GB SSD M.2 NVMe PCIe 3.0 x4 + 1 TB HDD 7200 RPM SATA III 6 Gbps.
+*Optical Drive: – .
+*Konektivitas: 802.11a/b/g/n/ac (2×2) Wi-Fi® and Bluetooth® 4.2 combo.
+*Port: 3 x USB 3.1, Mini DisplayPort, HDMI, RJ45 LAN,  Audio Jack, SD media card. *Baterai: 4-cell, 70 Wh Li-ion.
+												  ">HP OMEN 087TX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Rp. 60.000.000,00]</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-4">Specifikasi</label>
+							<div class="col-sm-6">
+								<textarea name="teksInfo" id="spec2" rows="6" class="form-control" disabled></textarea>
+							</div>
+						</div>
+						
+						<br>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="nama">Nama</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" name="nama" \>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-4">No. WA</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" name="wa" \>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-4">No. KTP</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" name="ktp" \>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-4">Jenis Kelamin</label>
+							<div class="col-sm-1">
+								<input class="form-control" type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki-Laki
+							</div>
+							<div class="col-sm-1">
+									<input class="form-control" type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="nama"> &nbsp; </label>
+							<div class="col-sm-1">
+								<button type="submit" class="btn btn-primary" >Save</button>
+							</div>
+							<div class="col-sm-1">
+								<button type="reset" class="btn btn-warning" >Reset</button>
+							</div>
+						</div>
+
+					</form>
+
+				</div>
+
+			</div>
+
+	</body>
+</html>
